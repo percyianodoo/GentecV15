@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_wiz_bank_reconciliation_report,wiz.bank.reconciliation.report,model_wiz_bank_reconciliation_report,base.group_user,1,1,1,1
+access_wiz_bank_reconciliation_report_exported,wiz.bank.reconciliation.report.exported,model_wiz_bank_reconciliation_report_exported,base.group_user,1,1,1,1

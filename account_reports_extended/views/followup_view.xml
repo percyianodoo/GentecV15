@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Inherited Followup View to remove sheet tag -->
+    <record id="customer_statements_form_view_inherit" model="ir.ui.view">
+        <field name="name">customer.statements.followup.sheet.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account_reports.customer_statements_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="replace">
+                <followup/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

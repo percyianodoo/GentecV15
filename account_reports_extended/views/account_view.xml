@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Added tree view of account bank statement to show the date only in tree -->
+    <record id="account_bank_st_view_tree" model="ir.ui.view">
+        <field name="name">account.bank.st.view.tree</field>
+        <field name="model">account.bank.statement</field>
+        <field name="arch" type="xml">
+            <tree string="Bank Statement Dates">
+                <field name="date" required="1"/>
+                <field name="state" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
